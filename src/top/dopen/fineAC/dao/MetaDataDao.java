@@ -46,6 +46,15 @@ public class MetaDataDao {
             e.printStackTrace();
         }
     }
+
+    /**
+     *<b>Description:</b>获取列信息<br>
+     * @param  []
+     * @Note
+     * <b>Author:</b> <a>开唯</a>
+     * <br><b>Date:</b> 2018/6/12 14:07
+     * <br><b>Version:</b> 1.0
+     */
     @Test
     public void columns(){
         try {
@@ -72,6 +81,14 @@ public class MetaDataDao {
         }
     }
 
+    /**
+     *<b>Description:</b>主键<br>
+     * @param  []
+     * @Note
+     * <b>Author:</b> <a>开唯</a>
+     * <br><b>Date:</b> 2018/6/12 14:07
+     * <br><b>Version:</b> 1.0
+     */
     @Test
     public void primaryKey(){
         try {

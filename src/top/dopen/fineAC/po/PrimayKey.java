@@ -16,7 +16,7 @@ public class PrimayKey {
     //字段名
     private String columnName;
     //主键优先级
-    private Short keySeq;
+    private Integer keySeq;
 
     public String getPkName() {
         return pkName;
@@ -42,11 +42,11 @@ public class PrimayKey {
         this.columnName = columnName;
     }
 
-    public Short getKeySeq() {
+    public Integer getKeySeq() {
         return keySeq;
     }
 
-    public void setKeySeq(Short keySeq) {
+    public void setKeySeq(Integer keySeq) {
         this.keySeq = keySeq;
     }
 }
