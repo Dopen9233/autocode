@@ -43,9 +43,6 @@ public class DBUtil {
     }
 
     private static void init(String url,String user,String password) throws Exception {
-        Properties properties = new Properties();
-        InputStream is = new FileInputStream("classpath:db.properties");
-        properties.load(is);
         URL = url;
         USER = user;
         PASSWORD = password;
