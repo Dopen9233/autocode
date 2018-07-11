@@ -70,7 +70,7 @@ public class GuiDemo {
         GroupLayout.SequentialGroup vSeqGroup = layout.createSequentialGroup().addGroup(vParalGroup01).addGroup(vParalGroup02).addComponent(btn05);
 
         layout.setVerticalGroup(vSeqGroup);    // 指定布局的 垂直组（垂直坐标）
-
+        //hello world
         jf.setContentPane(panel);
         jf.pack();
         jf.setLocationRelativeTo(null);
